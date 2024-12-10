@@ -21,9 +21,9 @@ Disadvantage:
    - This will creat a folder venv/
 3. Activate the env: $ conda activate venv/
 
-**If conda is not recognised** 
-https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command
-check conda is recognised or not
+**If conda is not recognised**  
+https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command  
+check conda is recognised or not  
     $ conda --version
     if not, ensure conda is in PATH, steps 
 -   Open the Start menu, search for "Edit the system environment variables," and open it.
