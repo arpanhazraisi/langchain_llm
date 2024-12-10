@@ -7,7 +7,7 @@ Langchain end to end projects
 - $ conda create -p langchain_env  python=3.9 -y 
 
 # Through VS code or PyCharm
-1. open cmd from terminal
+1. open cmd from terminal (!! check its not powershell !!)
 2. check conda is recognised or not
     $ conda --version
     if not, ensure conda is in PATH, steps 
