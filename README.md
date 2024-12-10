@@ -3,7 +3,7 @@ Langchain end to end projects
 
 ## Set up virtual env
 
-* Approach 1 *
+** Approach 1 **
 ### Through anaconda prompt
 - $ conda create -p langchain_env  python=3.9 -y 
 
