@@ -3,7 +3,12 @@ Langchain end to end projects
 
 ## Set up virtual env
 
-** Approach 1 **
+**Approach 1**
+Conda to create venv
+Advantage: 
+- All the packages and env are properly managed through Anaconda
+- It helps to create env with Python version directly even when base version is different.
+Disadvantage: Conda needs to be installed.
 ### Through anaconda prompt
 - $ conda create -p langchain_env  python=3.9 -y 
 
@@ -13,7 +18,7 @@ Langchain end to end projects
    - This will creat a folder venv/
 3. Activate the env: $ conda activate venv/
 
-* If conda is not recognised * 
+**If conda is not recognised** 
 check conda is recognised or not
     $ conda --version
     if not, ensure conda is in PATH, steps 
@@ -30,4 +35,28 @@ $ C:\Users\YourUsername\Anaconda3\Scripts\activate base
 4. Now create the virtual env again
 $ conda create -p langchain_env  python=3.9 -y
 
-## Set up virtual env
+**Approach 2**
+Direct python 
+Advantage: 
+- When conda is not installed
+Disadvanatge :
+- Installing different python version is little complicated
+
+### Through cmd (even in VS Code)
+1. Create a venv with folder name myenv in wd
+  $ python -m venv myenv
+   Here env name is **myenv**, will create a folder with name myenv.
+2. Activate the env: $ myenv/Scripts/activate
+3. $python --version --> Default version installed in my system
+* If I need to upgrate to different python version, need to download that version from www.python.org first then install it and create env.
+
+**Approach 3**
+Popular in LINUX command
+1. Install virtualenv
+  $ pip install virtualenv
+2. Create venv using virtualenv
+  $ virtualenv -p python3 venv
+   Here env name is **venv**, this will create a folder with name venv.
+3. Activate the env: $ venv/Scripts/activate
+* If I need to upgrate to different python version, need to download that version from www.python.org first then install it and create env.
+  
