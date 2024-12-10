@@ -3,7 +3,7 @@ Langchain end to end projects
 
 ## Set up virtual env
 
-**Approach 1**
+**Approach 1** <br />
 Conda to create venv
 Advantage: 
 - All the packages and env are properly managed through Anaconda
@@ -35,7 +35,7 @@ $ C:\Users\YourUsername\Anaconda3\Scripts\activate base
 4. Now create the virtual env again
 $ conda create -p langchain_env  python=3.9 -y
 
-**Approach 2**
+**Approach 2** <br />
 Direct python 
 Advantage: 
 - When conda is not installed
@@ -50,7 +50,7 @@ Disadvanatge :
 3. $python --version --> Default version installed in my system
 * If I need to upgrate to different python version, need to download that version from www.python.org first then install it and create env.
 
-**Approach 3**
+**Approach 3** <br />
 Popular in LINUX command
 1. Install virtualenv
   $ pip install virtualenv
