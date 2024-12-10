@@ -22,6 +22,7 @@ Disadvantage:
 3. Activate the env: $ conda activate venv/
 
 **If conda is not recognised** 
+https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command
 check conda is recognised or not
     $ conda --version
     if not, ensure conda is in PATH, steps 
