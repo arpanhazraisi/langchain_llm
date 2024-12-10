@@ -3,13 +3,13 @@ Langchain end to end projects
 
 ## Set up virtual env
 
-**Approach 1** <br />
-Conda to create venv <br />
+**Approach 1**  
+Conda to create venv  
 Advantage: 
 - All the packages and env are properly managed through Anaconda
-- It helps to create env with Python version directly even when base version is different. 
-<br />
-Disadvantage:
+- It helps to create env with Python version directly even when base version is different.  
+
+Disadvantage:  
 - Conda needs to be installed.
 
 ### Through anaconda prompt
@@ -38,12 +38,12 @@ $ C:\Users\YourUsername\Anaconda3\Scripts\activate base
 4. Now create the virtual env again
 $ conda create -p langchain_env  python=3.9 -y
 
-**Approach 2** <br />
-Direct python <br />
+**Approach 2**  
+Direct python  
 Advantage: 
-- When conda is not installed 
-<br />
-Disadvanatge :
+- When conda is not installed  
+
+Disadvanatge :  
 - Installing different python version is little complicated
 
 ### Through cmd (even in VS Code)
