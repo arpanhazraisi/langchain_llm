@@ -8,7 +8,8 @@ Conda to create venv <br />
 Advantage: 
 - All the packages and env are properly managed through Anaconda
 - It helps to create env with Python version directly even when base version is different. 
-<br />Disadvantage: Conda needs to be installed.
+<br />
+Disadvantage: Conda needs to be installed.
 ### Through anaconda prompt
 - $ conda create -p langchain_env  python=3.9 -y 
 
