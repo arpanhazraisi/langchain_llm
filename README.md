@@ -3,12 +3,18 @@ Langchain end to end projects
 
 ## Set up virtual env
 
-# Through anaconda prompt
+* Approach 1 *
+### Through anaconda prompt
 - $ conda create -p langchain_env  python=3.9 -y 
 
-# Through VS code or PyCharm
+### Through VS code or PyCharm
 1. open cmd from terminal (!! check its not powershell !!)
-2. check conda is recognised or not
+2. $ conda create -p venv  python=3.9 -y  
+   - This will creat a folder venv/
+3. Activate the env: $ conda activate venv/
+
+* If conda is not recognised * 
+check conda is recognised or not
     $ conda --version
     if not, ensure conda is in PATH, steps 
 -   Open the Start menu, search for "Edit the system environment variables," and open it.
@@ -22,4 +28,6 @@ $ conda actiivate base
 OR
 $ C:\Users\YourUsername\Anaconda3\Scripts\activate base
 4. Now create the virtual env again
-$ conda create -p langchain_env  python=3.9 -y 
+$ conda create -p langchain_env  python=3.9 -y
+
+## Set up virtual env
